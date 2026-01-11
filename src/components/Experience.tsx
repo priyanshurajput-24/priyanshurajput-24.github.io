@@ -63,7 +63,15 @@ export default function Experience() {
                   <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 mb-4">
                     <div>
                       <h3 className="text-2xl font-bold text-gray-800 dark:text-gray-200">{exp.role}</h3>
-                      <a href={exp.url} ><p className="text-xl text-blue-600 dark:text-blue-400 font-semibold">{exp.company}</p> </a>
+                      <a 
+                        href={exp.url}   
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-2 text-2xl font-bold text-gray-800 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition"><p className="text-xl text-blue-600 dark:text-blue-400 font-semibold"
+                        >
+                          {exp.company}
+                        </p> 
+                      </a>
                       <p className="text-gray-600 dark:text-gray-400">{exp.location}</p>
                     </div>
                     <span className="text-sm font-medium px-4 py-2 bg-purple-100 dark:bg-purple-900/30 text-purple-600 dark:text-purple-400 rounded-full whitespace-nowrap">
