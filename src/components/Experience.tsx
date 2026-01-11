@@ -3,6 +3,7 @@ import { Briefcase } from 'lucide-react';
 const experiences = [
   {
     company: 'Data POEM',
+    url: "https://datapoem.ai",
     role: 'Jr. AI Scientist',
     location: 'Bengaluru, India',
     period: 'April 2025 - Present',
@@ -13,6 +14,7 @@ const experiences = [
   },
   {
     company: 'Itech India',
+    url: "https://itechindia.co",
     role: 'ML Engineer Trainee',
     location: 'Chennai, India',
     period: 'Dec 2023 - Jan 2025',
@@ -25,6 +27,7 @@ const experiences = [
   },
   {
     company: 'Itech India',
+    url: "https://itechindia.co",
     role: 'ML Intern',
     location: 'Chennai, India',
     period: 'June 2023 - Nov 2023',
@@ -60,7 +63,7 @@ export default function Experience() {
                   <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 mb-4">
                     <div>
                       <h3 className="text-2xl font-bold text-gray-800 dark:text-gray-200">{exp.role}</h3>
-                      <p className="text-xl text-blue-600 dark:text-blue-400 font-semibold">{exp.company}</p>
+                      <a href={exp.url} ><p className="text-xl text-blue-600 dark:text-blue-400 font-semibold">{exp.company}</p> </a>
                       <p className="text-gray-600 dark:text-gray-400">{exp.location}</p>
                     </div>
                     <span className="text-sm font-medium px-4 py-2 bg-purple-100 dark:bg-purple-900/30 text-purple-600 dark:text-purple-400 rounded-full whitespace-nowrap">

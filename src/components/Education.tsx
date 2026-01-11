@@ -3,19 +3,21 @@ import { GraduationCap } from 'lucide-react';
 const education = [
   {
     institution: 'IIT Madras',
+    url: "https://study.iitm.ac.in/ds/",
     degree: 'B.S. in Data Science and Application',
     location: 'Chennai',
-    period: 'Jan 2021 - Apr 2025',
-    grade: 'CGPA: 7.1',
-    driveLink: 'https://drive.google.com/file/d/IIT_MADRAS_LINK/view',
+    period: 'Jan 2021 - Dec 2025',
+    grade: 'CGPA: 6.4',
+    driveLink: 'https://drive.google.com/file/d/1CRA_B8htKHQh50IH5MgdNb7adX_OFFX7/view?usp=sharing',
   },
   {
     institution: 'CSJMU Kanpur',
+    url: "https://csjmu.ac.in",
     degree: 'Mathematics B.Sc.',
     location: 'Kanpur',
     period: 'July 2019 - July 2022',
     grade: 'Percentage: 61%',
-    driveLink: 'https://drive.google.com/file/d/CSJMU_LINK/view',
+    driveLink: 'https://drive.google.com/file/d/1M4rei5PSxg2i6nexJeXUilMKSyIGwWni/view?usp=drive_link',
   },
 ];
 
@@ -39,9 +41,14 @@ export default function Education() {
                 </div>
 
                 <div className="flex-1">
-                  <h3 className="text-2xl font-bold text-gray-800 dark:text-gray-200 mb-2">
-                    {edu.institution}
-                  </h3>
+                  <a
+                      href={edu.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 text-2xl font-bold text-gray-800 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition"
+                    >
+                      {edu.institution}
+                    </a>
                   <p className="text-lg text-blue-600 dark:text-blue-400 font-semibold mb-1">
                     {edu.degree}
                   </p>
@@ -52,10 +59,6 @@ export default function Education() {
               </div>
 
               <div className="flex items-center justify-between pt-4 border-t border-gray-200 dark:border-gray-700">
-                <span className="text-sm font-medium text-gray-600 dark:text-gray-400">
-                  {edu.period}
-                </span>
-
                 <a
                   href={edu.driveLink}
                   target="_blank"
@@ -66,6 +69,10 @@ export default function Education() {
                     <span className="text-sm font-medium">View Doc</span>
                   </button>
                 </a>
+
+                <span className="text-sm font-medium text-gray-600 dark:text-gray-400">
+                  {edu.period}
+                </span>
 
                 <span className="px-4 py-1.5 bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 text-blue-600 dark:text-blue-400 rounded-full text-sm font-semibold border border-blue-200 dark:border-purple-800">
                   {edu.grade}
