@@ -4,17 +4,17 @@ const skillCategories = [
   {
     title: 'Programming Languages',
     icon: Code,
-    skills: ['Python', 'C++', 'CUDA', 'Bash', 'Java', 'JavaScript', 'Scala'],
+    skills: ['Python', 'Scala', 'C++', 'CUDA', 'Bash', 'Java', 'JavaScript'],
   },
   {
     title: 'Libraries & Frameworks',
     icon: Box,
-    skills: ['React', 'Flask', 'PyTorch', 'ONNX', 'Vue.js', 'scikit-learn', 'XGBoost'],
+    skills: ['PyTorch', 'ONNX', 'scikit-learn', 'XGBoost', 'React', 'Vue.js', 'Flask'],
   },
   {
     title: 'Tools & Platforms',
     icon: Wrench,
-    skills: ['AWS CloudFormation', 'SageMaker', 'Datadog', 'Redshift', 'Git', 'Docker', 'NLP', 'LLM', 'ETL/ELT'],
+    skills: ['AWS CloudFormation', 'SageMaker', 'Datadog', 'Redshift', 'Git', 'Docker', 'NLP', 'LLM', 'Redis'],
   },
   {
     title: 'Databases',

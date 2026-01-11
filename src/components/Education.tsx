@@ -45,6 +45,15 @@ export default function Education() {
 
               <div className="flex items-center justify-between pt-4 border-t border-gray-200 dark:border-gray-700">
                 <span className="text-sm font-medium text-gray-600 dark:text-gray-400">{edu.period}</span>
+                <a
+                href="https://drive.google.com/file/d/1M4rei5PSxg2i6nexJeXUilMKSyIGwWni/view?usp=drive_link"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex items-center gap-4 p-4 bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 rounded-xl hover:shadow-md transition-all duration-300 hover:scale-105 border border-blue-200 dark:border-purple-800"
+              >
+                <button className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-lg hover:shadow-lg hover:scale-105 transition-all duration-300">
+                    <span className="text-sm font-medium">View Doc</span>
+                  </button> </a>
                 <span className="px-4 py-1.5 bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 text-blue-600 dark:text-blue-400 rounded-full text-sm font-semibold border border-blue-200 dark:border-purple-800">
                   {edu.grade}
                 </span>
