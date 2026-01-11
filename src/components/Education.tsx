@@ -7,7 +7,7 @@ const education = [
     degree: 'B.S. in Data Science and Application',
     location: 'Chennai',
     period: 'Jan 2021 - Dec 2025',
-    grade: 'CGPA: 6.4',
+    // grade: 'CGPA: 6.4',
     driveLink: 'https://drive.google.com/file/d/1CRA_B8htKHQh50IH5MgdNb7adX_OFFX7/view?usp=sharing',
   },
   {
@@ -16,7 +16,7 @@ const education = [
     degree: 'Mathematics B.Sc.',
     location: 'Kanpur',
     period: 'July 2019 - July 2022',
-    grade: 'Percentage: 61%',
+    // grade: 'Percentage: 61%',
     driveLink: 'https://drive.google.com/file/d/1M4rei5PSxg2i6nexJeXUilMKSyIGwWni/view?usp=drive_link',
   },
 ];
@@ -74,9 +74,9 @@ export default function Education() {
                   {edu.period}
                 </span>
 
-                <span className="px-4 py-1.5 bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 text-blue-600 dark:text-blue-400 rounded-full text-sm font-semibold border border-blue-200 dark:border-purple-800">
+                {/* <span className="px-4 py-1.5 bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/30 dark:to-purple-900/30 text-blue-600 dark:text-blue-400 rounded-full text-sm font-semibold border border-blue-200 dark:border-purple-800">
                   {edu.grade}
-                </span>
+                </span> */}
               </div>
             </div>
           ))}
