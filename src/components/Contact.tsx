@@ -63,7 +63,7 @@ export default function Contact() {
 
             <div className="space-y-4">
               <a
-                href="https://www.linkedin.com/in/priyanshurajput-24"
+                href="https://www.linkedin.com/in/priyanshurajput024"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center gap-4 p-4 bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 rounded-xl hover:shadow-md transition-all duration-300 hover:scale-105 border border-blue-200 dark:border-purple-800"
