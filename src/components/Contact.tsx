@@ -78,7 +78,7 @@ export default function Contact() {
               </a>
 
               <a
-                href="https://github.com/priyanshu-rajput"
+                href="https://www.linkedin.com/in/priyanshurajput024"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center gap-4 p-4 bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 rounded-xl hover:shadow-md transition-all duration-300 hover:scale-105 border border-blue-200 dark:border-purple-800"
@@ -93,12 +93,6 @@ export default function Contact() {
               </a>
             </div>
           </div>
-        </div>
-
-        <div className="text-center">
-          <p className="text-gray-600 dark:text-gray-400">
-            Built with React, TypeScript, and Tailwind CSS
-          </p>
         </div>
       </div>
     </section>

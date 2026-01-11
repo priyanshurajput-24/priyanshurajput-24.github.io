@@ -19,7 +19,7 @@ export default function Hero() {
 
           <div className="flex flex-wrap gap-4 justify-center pt-8">
             <a
-              href="https://www.linkedin.com/in/priyanshu-rajput"
+              href="https://www.linkedin.com/in/priyanshurajput024/"
               target="_blank"
               rel="noopener noreferrer"
               className="group flex items-center gap-2 px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-full transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-blue-500/50"
