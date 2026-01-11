@@ -30,7 +30,7 @@ export default function Hero() {
             </a>
 
             <a
-              href="https://github.com/priyanshu-rajput"
+              href="https://github.com/priyanshurajput-24"
               target="_blank"
               rel="noopener noreferrer"
               className="group flex items-center gap-2 px-6 py-3 bg-gray-800 hover:bg-gray-900 dark:bg-gray-700 dark:hover:bg-gray-600 text-white rounded-full transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-gray-500/50"
