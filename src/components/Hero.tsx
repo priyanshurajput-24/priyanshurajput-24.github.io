@@ -6,7 +6,7 @@ export default function Hero() {
       <div className="max-w-4xl mx-auto text-center z-10">
         <div className="space-y-6 animate-fade-in-up">
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent pb-2">
-            Priyanshu Rajput Tirkit
+            Priyanshu Rajput 
           </h1>
 
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-gray-800 dark:text-gray-200">
