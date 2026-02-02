@@ -51,17 +51,7 @@ export default function Projects() {
                   ))}
                 </div>
 
-                <div className="flex gap-4">
-                  <button className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-lg hover:shadow-lg hover:scale-105 transition-all duration-300">
-                    <Github className="w-4 h-4" />
-                    <span className="text-sm font-medium">View Code</span>
-                  </button>
-
-                  <button className="flex items-center gap-2 px-4 py-2 border-2 border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 rounded-lg hover:border-blue-500 hover:text-blue-600 dark:hover:text-blue-400 hover:scale-105 transition-all duration-300">
-                    <ExternalLink className="w-4 h-4" />
-                    <span className="text-sm font-medium">Live Demo</span>
-                  </button>
-                </div>
+        
               </div>
             </div>
           ))}
