@@ -10,7 +10,7 @@ export default function Hero() {
           </h1>
 
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-gray-800 dark:text-gray-200">
-            Jr. AI Scientist
+            AI Scientist
           </h2>
 
           <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
