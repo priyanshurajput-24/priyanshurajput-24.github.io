@@ -4,7 +4,7 @@ const experiences = [
   {
     company: 'Data POEM',
     url: "https://datapoem.ai",
-    role: 'Jr. AI Scientist',
+    role: 'AI Scientist',
     location: 'Bengaluru, India',
     period: 'April 2025 - Present',
     responsibilities: [
